@@ -1,0 +1,19 @@
+{
+    "name": "bariscodefx/webpack-php",
+    "description": "A loader that loads automatically your javascript files that compiled with webpack.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "bariscodefx\\WebpackPHP\\": "src/WebpackPHP/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bariscodefxy",
+            "email": "bariscodefx@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
