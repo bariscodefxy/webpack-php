@@ -98,7 +98,7 @@ class WebpackPHP {
         if ( $asset_type == "style" )
             return "<link rel=\"stylesheet\" href=\"" . $assets_dir . $asset . "\">";
         else if ($asset_type == "script")
-            return "<script type=\"text/javascript\" src=\"" . $assets_dir . $asset . "\">";
+            return "<script type=\"text/javascript\" src=\"" . $assets_dir . $asset . "\"></script>";
         else
             throw new \Exception("WebpackPHP::asset(): unknown asset type");
     }
